@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.card {
+  background-color: white;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  width: 240px;
+}
+
+.media {
+  width: 320px;
+  height: 129px;
+}
+
+.slider {
+
+}
+
+.num {
+  font-size: 13.5px;
+  float: right;
+  line-height: 2rem;
+}
+
+.card-header {
+  //margin-top: 15px !important;
+  font-weight: 400 !important;
+}
+
+.form-control {
+  
+}
+
+.tooltip {
+  background: rgba(0,0,0,0.7);
+  pointer-events: none;
+  position: absolute;
+  z-index: 9;
+  font-size: 12px;
+  padding: 8px;
+  color: #fff;
+  min-width: 140px;
+  max-height: 80px;
+  overflow-y: hidden;
+}
+
+.tooltipLine {
+  display: block;
+}
+
+.tooltipLabel {
+  display: inline-block;
+  width: 66px;
+}

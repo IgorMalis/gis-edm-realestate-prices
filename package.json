@@ -1,0 +1,40 @@
+{
+  "name": "gis-edm-realestate-prices",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --progress --hot --open",
+    "build": "webpack --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@material-ui/core": "^3.5.1",
+    "@material-ui/icons": "^3.0.1",
+    "@material-ui/lab": "^3.0.0-alpha.23",
+    "d3-request": "^1.0.5",
+    "deck.gl": "^6.2.0",
+    "lodash": "^4.17.11",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0",
+    "react-map-gl": "^3.3.0"
+  },
+  "devDependencies": {
+    "assert": "^2.1.0",
+    "buble": "^0.20.0",
+    "buble-loader": "^0.5.1",
+    "css-loader": "^7.1.2",
+    "dotenv-webpack": "^8.1.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.0",
+    "react-error-overlay": "^6.0.9",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  },
+  "browser": {
+    "assert": false
+  }
+}
